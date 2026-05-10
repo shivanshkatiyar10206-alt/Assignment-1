@@ -1,0 +1,116 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+   
+}
+.container1{
+    height: 95%;
+    width: 60%;
+    background-color: #fbc50b;
+    margin: 13px 0px 10px 10px;
+    position: relative;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+.container2{
+    height: 95%;
+    width: 40%;
+    background-color: #fae7b4;
+    margin: 13px 10px 10px 0px;
+    position: relative;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.container1 img{
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.container1 .font1{
+    margin-top: 100PX;
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 15px;
+    /* border: solid; */
+    letter-spacing: 5px;
+}
+.container1 .font2{
+    font-weight: 900;
+    font-size: 100px;
+    position: absolute;
+    top: 200px;
+    margin-left: 50px;
+   
+}
+.container1 .font3{
+    font-weight: 100;
+    font-size: 20px;
+    position: absolute;
+    top: 320px;
+    margin-left: 50px;
+    z-index: 1;
+}
+.pikachu{
+    position: absolute;
+    height: 70%; /* Image ka size adjust karne ke liye */
+    left: 60%; /* Container 1 aur 2 ke junction par */
+    top: 50%;
+    transform: translate(-50%, -50%); /* Bilkul center align karne ke liye */
+    /* z-index: 10; */
+}
+.pikachu img {
+    height: 100%;
+    object-fit: contain;
+    
+}
+.pikachu :hover{
+    
+}
+.ri-menu-line{
+    position: absolute;
+    top: 3%;
+    right: 10%;
+    font-size: 50px;
+}
+.circle{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 20px;
+    top: 50%;
+    gap: 10px;
+    
+}
+.box{
+    height: 10px;
+    width: 10px;
+    background-color: #fbc914; 
+    border-radius: 50%;  
+}
+.box.black{
+background-color: black;
+}
+.ball{
+    position: absolute;
+    bottom: 0%;
+
+}
+.ball img{
+    height: 180px;
+    width: 180px;
+    z-index: 0;
+    top: 
+}
